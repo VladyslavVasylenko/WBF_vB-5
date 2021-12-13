@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.style-body {
+  width: 100%;
+  height: 100%;
+  background: url(../fons/img-17.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar-style {
+  background-color: rgba(140, 147, 153, 0.322);
+
+  .name {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .nav-link-style {
+    color: white !important;
+    font-weight: 500;
+    text-shadow: 0 0 10px black;
+    text-transform: uppercase;
+
+    &:hover {
+      color: rgb(255, 102, 0) !important;
+      font-weight: 700;
+      transition: ease 1s;
+    }
+  }
+
+  .active {
+    color: rgb(0, 255, 21) !important;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+  }
+}
+
+.icon-img {
+  width: 250px;
+}
+
+.accordion-item{
+  background-color: rgba(255, 255, 255, 0);
+
+  .accordion-button{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.205);
+  }
+}
+
+.item {
+  list-style-type: none;
+}
+
+.link-style {
+  color: white;
+  text-shadow: 0 0 10px black;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+
+  &:hover{
+    color: cyan;
+    text-shadow: 0 0 10px black;
+    font-weight: 600;
+    box-shadow: 0 0 10px black;
+    padding: 0 5px;
+  }
+}
