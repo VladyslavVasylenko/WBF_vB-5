@@ -130,7 +130,19 @@ Licensed Under MIT
             }, elemDelay);
         }
 
-        if (device.mobile() || device.tablet() || Modernizr.touch || $('html').hasClass('no-csstransitions')) {} else if (device.desktop()) {
+        // activateAnim();
+
+        // snowInterval = setInterval(function(){
+        //     activateAnim();
+        // }, +elemDelay + +elemSpeed);
+
+        if (device.mobile() || device.tablet() || Modernizr.touch) {
+            activateAnim();
+
+            snowInterval = setInterval(function(){
+                activateAnim();
+            }, +elemDelay / 1000 + +elemSpeed);
+        } else if (device.desktop()) {
             activateAnim();
 
             snowInterval = setInterval(function(){
