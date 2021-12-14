@@ -14,30 +14,6 @@
 		background-size: cover;
 		background-attachment: fixed;
 }
-.main-page .navbar-style {
-		background-color: rgba(140, 147, 153, 0.322);
-}
-.main-page .navbar-style .name {
-		font-size: 30px;
-		font-weight: 700;
-}
-.main-page .navbar-style .nav-link-style {
-		color: white !important;
-		font-weight: 500;
-		text-shadow: 0 0 10px black;
-		text-transform: uppercase;
-}
-.main-page .navbar-style .nav-link-style:hover {
-		color: #ff6600 !important;
-		font-weight: 700;
-		-webkit-transition: ease 1s;
-		transition: ease 1s;
-}
-.main-page .navbar-style .active {
-		color: #00ff15 !important;
-		font-weight: 700;
-		text-shadow: 0 0 10px black;
-}
 .main-page .main-page__icon-img {
 		width: 250px;
 }
@@ -53,18 +29,62 @@
 		list-style-type: none;
 		text-transform: uppercase;
 }
-.main-page .link-style {
+
+.navbar-style {
+		background-color: rgba(140, 147, 153, 0.322);
+}
+.navbar-style .name {
+		font-size: 30px;
+		font-weight: 700;
+}
+.navbar-style .nav-link-style {
+		color: white !important;
+		font-weight: 500;
+		text-shadow: 0 0 10px black;
+		text-transform: uppercase;
+}
+.navbar-style .nav-link-style:hover {
+		color: #ff6600 !important;
+		font-weight: 700;
+		-webkit-transition: ease 1s;
+		transition: ease 1s;
+}
+.navbar-style .active {
+		color: #00ff15 !important;
+		font-weight: 700;
+		text-shadow: 0 0 10px black;
+}
+
+.link-style {
 		color: white;
 		text-shadow: 0 0 10px black;
 		font-size: 18px;
 		font-weight: 500;
 		text-decoration: none;
 }
-.main-page .link-style:hover {
+.link-style:hover {
 		color: cyan;
 		text-shadow: 0 0 10px black;
 		font-weight: 600;
 		-webkit-box-shadow: 0 0 10px black;
 		        box-shadow: 0 0 10px black;
 		padding: 0 5px;
+}
+
+.second-page {
+		background-color: #a44200;
+		background-image: linear-gradient(-150deg, #f2c17d 0%, #a44200 74%);
+}
+.second-page .second-page-main {
+		padding-top: 100px;
+}
+.second-page .second-page-main .second-page-main-item {
+		color: blue;
+}
+.second-page .second-page-main .second-page-main-item__item {
+		color: black;
+		font-size: 16px;
+		font-weight: 500;
+		word-spacing: 2px;
+		text-shadow: 1px 1px 2px dimgray, 0 0 1em whitesmoke, 0 0 0.2em whitesmoke;
 }

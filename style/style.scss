@@ -6,40 +6,13 @@
   text-shadow: 0 0 10px rgb(255, 255, 255);
 }
 
+// Main-page
 .main-page {
   width: 100%;
   height: 100%;
   background: url(../fons/img-17.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
-
-  .navbar-style {
-    background-color: rgba(140, 147, 153, 0.322);
-  
-    .name {
-      font-size: 30px;
-      font-weight: 700;
-    }
-  
-    .nav-link-style {
-      color: white !important;
-      font-weight: 500;
-      text-shadow: 0 0 10px black;
-      text-transform: uppercase;
-  
-      &:hover {
-        color: rgb(255, 102, 0) !important;
-        font-weight: 700;
-        transition: ease 1s;
-      }
-    }
-  
-    .active {
-      color: rgb(0, 255, 21) !important;
-      font-weight: 700;
-      text-shadow: 0 0 10px rgb(0, 0, 0);
-    }
-  }
 
   .main-page__icon-img {
     width: 250px;
@@ -59,24 +32,73 @@
     list-style-type: none;
     text-transform: uppercase;
   }
-  
-  .link-style {
-    color: white;
-    text-shadow: 0 0 10px black;
-    font-size: 18px;
+}
+
+// Global-style
+.navbar-style {
+  background-color: rgba(140, 147, 153, 0.322);
+
+  .name {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .nav-link-style {
+    color: white !important;
     font-weight: 500;
-    text-decoration: none;
-  
-    &:hover{
-      color: cyan;
-      text-shadow: 0 0 10px black;
-      font-weight: 600;
-      box-shadow: 0 0 10px black;
-      padding: 0 5px;
+    text-shadow: 0 0 10px black;
+    text-transform: uppercase;
+
+    &:hover {
+      color: rgb(255, 102, 0) !important;
+      font-weight: 700;
+      transition: ease 1s;
     }
+  }
+
+  .active {
+    color: rgb(0, 255, 21) !important;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
   }
 }
 
-.second-page {
+.link-style {
+  color: white;
+  text-shadow: 0 0 10px black;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
 
+  &:hover{
+    color: cyan;
+    text-shadow: 0 0 10px black;
+    font-weight: 600;
+    box-shadow: 0 0 10px black;
+    padding: 0 5px;
+  }
+}
+
+// Second-page
+.second-page {
+  // background-color: #c3cbdc;
+  // background-image: linear-gradient(-150deg, #edf1f4 0%, #c3cbdc 74%);
+  background-color: #a44200;
+  background-image: linear-gradient(-150deg, #f2c17d 0%, #a44200 74%);
+
+  .second-page-main {
+    padding-top: 100px;
+    
+    .second-page-main-item { 
+      color: blue;
+    }
+  
+    .second-page-main-item__item { 
+      color: black;
+      font-size: 16px;
+      font-weight: 500;
+      word-spacing: 2px;
+      text-shadow: 1px 1px 2px dimgray, 0 0 1em whitesmoke, 0 0 0.2em whitesmoke;
+    }
+  }
 }
