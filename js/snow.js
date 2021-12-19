@@ -130,12 +130,6 @@ Licensed Under MIT
             }, elemDelay);
         }
 
-        // activateAnim();
-
-        // snowInterval = setInterval(function(){
-        //     activateAnim();
-        // }, +elemDelay + +elemSpeed);
-
         if (device.mobile() || device.tablet() || Modernizr.touch) {
             activateAnim();
 
@@ -168,7 +162,7 @@ Licensed Under MIT
 jQuery(document).ready(function($){
 $(document).snowFlurry({
         maxSize: 10,
-        numberOfFlakes: 300,
+        numberOfFlakes: 200,
         minSpeed: 10,
         maxSpeed: 20,
         color: '#fff',
