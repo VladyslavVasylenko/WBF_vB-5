@@ -17,6 +17,43 @@
 }
 .main-page .main-page__icon-img {
 		width: 250px;
+		position: relative;
+		-webkit-animation-name: icon;
+		        animation-name: icon;
+		-webkit-animation-duration: 3s;
+		        animation-duration: 3s;
+		-webkit-animation-timing-function: ease-in-out;
+		        animation-timing-function: ease-in-out;
+		-webkit-animation-iteration-count: infinite;
+		        animation-iteration-count: infinite;
+		-webkit-animation-direction: normal;
+		        animation-direction: normal;
+		-webkit-animation-delay: 0s;
+		        animation-delay: 0s;
+		-webkit-animation-fill-mode: forwards;
+		        animation-fill-mode: forwards;
+}
+@-webkit-keyframes icon {
+		0% {
+				left: 30px;
+		}
+		50% {
+				left: -30px;
+		}
+		100% {
+				left: 30px;
+		}
+}
+@keyframes icon {
+		0% {
+				left: 30px;
+		}
+		50% {
+				left: -30px;
+		}
+		100% {
+				left: 30px;
+		}
 }
 .main-page .accordion-item {
 		background-color: rgba(255, 255, 255, 0);
@@ -43,12 +80,12 @@
 		font-weight: 500;
 		text-shadow: 0 0 10px black;
 		text-transform: uppercase;
+		-webkit-transition: ease 1s;
+		transition: ease 1s;
 }
 .navbar-style .nav-link-style:hover {
 		color: #ff6600 !important;
 		font-weight: 700;
-		-webkit-transition: ease 1s;
-		transition: ease 1s;
 }
 .navbar-style .active {
 		color: #00ff15 !important;

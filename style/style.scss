@@ -17,8 +17,28 @@
 
   .main-page__icon-img {
     width: 250px;
+    position: relative;
+    animation-name: icon;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
   }
-  
+
+  @keyframes icon{
+    0% {
+      left: 30px;
+    }
+    50% {
+      left: -30px;
+    }
+    100% {
+      left: 30px;
+    }
+  }
+
   .accordion-item{
     background-color: rgba(255, 255, 255, 0);
   
@@ -49,11 +69,11 @@
     font-weight: 500;
     text-shadow: 0 0 10px black;
     text-transform: uppercase;
+    transition: ease 1s;
 
     &:hover {
       color: rgb(255, 102, 0) !important;
       font-weight: 700;
-      transition: ease 1s;
     }
   }
 
