@@ -80,8 +80,8 @@
 		font-weight: 500;
 		text-shadow: 0 0 10px black;
 		text-transform: uppercase;
-		-webkit-transition: ease 1s;
-		transition: ease 1s;
+		-webkit-transition: all 1s ease-in-out 0s;
+		transition: all 1s ease-in-out 0s;
 }
 .navbar-style .nav-link-style:hover {
 		color: #ff6600 !important;
@@ -99,8 +99,8 @@
 		font-size: 18px;
 		font-weight: 500;
 		text-decoration: none;
-		-webkit-transition: ease 1s;
-		transition: ease 1s;
+		-webkit-transition: all 1s ease 0s;
+		transition: all 1s ease 0s;
 }
 .link-style:hover {
 		color: cyan;
@@ -171,8 +171,8 @@
 		font-size: 18px;
 		font-weight: 500;
 		text-decoration: none;
-		-webkit-transition: ease 1s;
-		transition: ease 1s;
+		-webkit-transition: all 1s ease 0s;
+		transition: all 1s ease 0s;
 }
 .timetable .link-style:hover {
 		color: black;
